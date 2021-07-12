@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Streaming Survey</title>
+</head>
+<body>
+    <h1 id="title">Music Streaming Apps Survey</h1>
+    <p id="description">Please fill in the survey form below for a FREE 3 months trial subcription.</p>
+    
+    <div class="form-container">  
+        <form action="input" id="survey-form">
+            <ol>
+                <li>
+                    <p>Full Name</p>
+                    <label for="Name" id="name-label"></label>
+                    <input type="text" id="name" name="Name" placeholder="Enter your name" required >
+                </li>
+                <li>
+                    <p>Email</p>
+                    <label for="Email" id="email-label"></label>
+                    <input type="email" id="email" name="Email" placeholder="Enter your email" required >
+                </li>
+                <li>
+                    <p>How many music apps did you download on your smartphone?</p>
+                    <label for="number-of-app" id="number-label"></label>
+                    <input type="number" id="number" name="number-of-app" placeholder="Number only" required min="0" max="10"> 
+                </li>
+                <li>
+                    <p>How often do you purchase music after listening to it on music streaming apps?</p>
+                    <label for="buying"></label>
+                    <select name="buying" id="dropdown">
+                    <option value="extremely often">Extremely often</option>
+                    <option value="very often">Very often</option>
+                    <option value="somewhat often">Somewhat often</option>
+                    <option value="not often">Not often</option>
+                    <option value="never">Never</option>
+                </select>
+                </li>
+                <li>
+                    <p>Which one of the following music streaming app is BEST at recommending music you like</p>
+                    <label for="spotify">Spotify</label>
+                    <input type="radio" name="app" id="spotify" value="Spotify">
+
+                    <label for="appleMusic">Apple Music</label>
+                    <input type="radio" name="app" id="appleMusic" value="AppleMusic">
+
+                    <label for="googlePlay">Google Play</label>
+                    <input type="radio" name="app" id="googlePlay" value="GooglePlay">
+
+                    <label for="pandora">Pandora</label>
+                    <input type="radio" name="app" id="pandora" value="Pandora">
+                </li>
+                <li>
+                    <p>Which of the following music apps did you download on your smartphone? 
+                        (Please select all that apply.)
+                    </p>
+                    <label for="spotify">Spotify</label>
+                    <input type="checkbox" name="app" id="spotify" value="Spotify">
+                
+                    <label for="appleMusic">Apple Music</label>
+                    <input type="checkbox" name="app" id="appleMusic" value="AppleMusic">
+                
+                    <label for="googlePlay">Google Play</label>
+                    <input type="checkbox" name="app" id="googlePlay" value="GooglePlay">
+                
+                    <label for="pandora">Pandora</label>
+                    <input type="checkbox" name="app" id="pandora" value="Pandora">
+    
+                    <label for="none">None</label>
+                    <input type="checkbox" name="app" id="none" value="None">
+    
+                    <label for="other">Other</label>
+                    <input type="checkbox" name="app" id="other" value="other">
+                    <textarea name="chanel" id="other-comment" cols="2" rows="1" placeholder="Please specify"></textarea>
+                </li>
+                <li>
+                    <p>How much would you be willing to pay for an ad-free membership per month?</p>
+                    <label for="price"></label>
+                    <input type="number" name="price" id="price" placeholder="$" required min="0" max="100">
+                </li>
+                <li>
+                    <p>What features would you like to add to the app?</p>
+                    <label for="ideas"></label>
+                    <textarea name="ideas" id="ideas" cols="40" rows="8" placeholder="Enter your suggestion here..."></textarea>
+                </li>                         
+            </ol>
+            <input type="submit" name="btn" id="submit" value="Submit">
+            <p>Thank you for taking the time to complete this survey.
+                You will receive an email for a FREE 3 months music subcription shortly. &#128522 
+            <p>
+        </form>
+    </div> 
+        <span>&#169 2021, YASU. All right reserved. Build with &#9829 by Y.K.Tamrakar.</span>  
+  
+</body>
+</html>

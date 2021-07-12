@@ -1,0 +1,128 @@
+body{
+    margin: 0;  
+    position: relative;
+    background-image: url(image/efe-kurnaz-RnCPiXixooY-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;  
+    opacity: 0.6; 
+}
+
+#title{
+    font-family: monospace;
+    color: #fafafa;
+    font-weight: 500px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000000;
+    position: relative;  
+    text-align: center;
+    margin:0;
+    padding-top: 40px;
+  }
+  #description{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #fafafa;
+    text-shadow: 2px 2px 2px #000000,0 0 30px black;
+    padding: 20px;
+    margin: auto;  
+  }
+  .form-container{
+    border-radius: 10px;
+    background-color: #fa8dcd;
+    box-shadow: 2px 2px 5px #f8f7f8;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 100%;
+    overflow: auto;       
+  }
+  #survey-form{
+    font-family: monospace;
+    font-size: 15px;   
+    font-weight: bold;   
+    display: inline-block; 
+    margin: auto;
+  }
+  input[type=text],[type=email],[type=number]{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;    
+    resize: vertical;
+    width: 40%;        
+  }
+  input[type=checkbox],[type=radio]{
+    position: absolute;
+    margin-top: -15px;
+    margin-left:-10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    resize: vertical;
+  }    
+  textarea, select{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    width: 40%;     
+    resize: none;
+  }
+  #ideas{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    height: 5%;    
+  }
+  label{
+    display:flex;
+    padding: 0 10px;
+  }
+  #submit{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 60%;
+    transition: 0.4s; 
+  }
+  #submit:hover{
+    cursor: pointer;
+    background-color: #8a2be2;
+    color: #000000;
+  }
+  span{
+    color: #080808;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 20px;    
+  }
+  .row::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width:400px){
+    .form-container, #title, #description,#ideas{
+      width: 85%;
+      margin: auto;
+    }
+  }
+  @media screen and (max-width:600px){
+    .form-container, #title, #description,#ideas{
+      width: 85%;
+      margin: auto;}
+  }
+
+  
+
+  
+
