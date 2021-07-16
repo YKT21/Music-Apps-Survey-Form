@@ -17,8 +17,8 @@ This is my 2nd project on https://www.freecodecamp.org for Responsive Web Design
 
 
 # Tools I Used
-VS Code
-Codepen for the purpose of marking/running test to meet the requirements that set out for the project.
+* VS Code
+* Codepen for the purpose of marking/running test to meet the requirements that set out for the project.
 
 # Responsive Website Project Requirements 
 Please check out the link below for the requirements to complete the project. 
