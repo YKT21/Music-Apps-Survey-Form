@@ -1,5 +1,5 @@
 # Music-Apps-Survey-Form
-This is my 2nd project on https://www.freecodecamp.org for Responsive Web Design is to buile a survey form.
+This is my 2nd project on https://www.freecodecamp.org for Responsive Web Design is to build a survey form.
 
 # Build With
 * HTML
